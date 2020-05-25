@@ -1,0 +1,359 @@
+
+
+/* Start:/bitrix/templates/.default/components/bitrix/breadcrumb/template1/style.css?14592316411376*/
+.bx_breadcrumbs ul{
+	margin-bottom: 14px !important;
+}
+.bx_breadcrumbs ul li a{
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+	padding: 0px !important;
+font-size: 13px;
+}
+.bx_breadcrumbs ul li a{
+	padding: 0 8px;
+}
+/***.bx_breadcrumbs{
+    margin-bottom:15px;
+    padding-top:0px
+}
+.bx_breadcrumbs ul{
+    margin:0;
+    padding:0;
+
+
+}
+.bx_breadcrumbs ul li{
+    display:inline-block;
+    line-height:20px;
+    list-style-type:none;
+
+
+}
+
+.bx_breadcrumbs ul li{
+        background:none;
+    }
+
+.bx_breadcrumbs ul li a{
+    display:block;
+    padding:0 15px;
+    background:url(/bitrix/templates/.default/components/bitrix/breadcrumb/template1/images/breadcrumbs_arrow.png) no-repeat center right;
+    color:#555;
+    text-decoration:none;
+    font-size:11px;
+    opacity:.5
+}
+.bx_breadcrumbs ul li:first-child a{padding-left:0}
+.bx_breadcrumbs ul li:last-child  a{background:none}
+.bx_breadcrumbs ul li a:hover{
+    text-decoration:underline;
+    line-height:20px;
+    opacity:1
+}
+.bx_breadcrumbs ul li span{
+    display:block;
+    padding:0 15px;
+    color:#aaa;
+    text-decoration:none;
+    font-size:11px
+}
+.bx_breadcrumbs,
+.bx_breadcrumbs ul li{
+    -webkit-transition:all 0.3s ease;
+    -moz-transition:all 0.3s ease;
+    -ms-transition:all 0.3s ease;
+    -o-transition:all 0.3s ease;
+    transition:all 0.3s ease;
+}
+*****/
+
+.content_ul_li{
+	background:none !important;
+	display: inline;
+	padding-left:0px !important;
+}
+/* End */
+
+
+/* Start:/bitrix/templates/.default/components/prural/rating.vote/uvelka_like/style.css?14373791231093*/
+/* Rating */
+span.rating-vote { 
+	display: inline-block!important; 
+	height: 32px;
+	vertical-align: middle;
+}
+span.rating-vote a { cursor: pointer }
+span.rating-vote a.rating-vote-plus {
+	display: inline-block; 
+	outline: none;
+	margin: 0px;
+	text-decoration: none;
+	width:32px; 
+	height: 32px; 
+	background: transparent url("palec1.png") no-repeat 0 0;
+	border: 0px;	
+	vertical-align: middle;
+}
+
+span.rating-vote a.rating-vote-minus {
+	display: inline-block; 
+	width: 32px; 
+	height: 32px; 
+	background: transparent url("palec2.png") no-repeat 0 0;
+	border: 0px;
+	margin: 0px;
+	outline: none;
+	text-decoration: none;	
+	vertical-align: middle;
+}
+span.rating-vote a.rating-vote-load { background: transparent url("waiting.gif") no-repeat!important;}
+
+span.rating-vote-result 
+{ 
+	display: inline-block; 
+	height: 16px; 
+	color: #289b00; 
+	font: normal 12px Verdana;
+	margin: 1px 0 0 0px;
+	padding:0;
+	vertical-align: top;
+}
+
+span.rating-vote-result-minus { color: #ca0000;}
+
+.rating_vote_graphic { display: inline-block!important; }
+.rating_vote_text { display: none!important; }
+/* End */
+
+
+/* Start:/bitrix/templates/.default/components/bitrix/catalog/recipes/bitrix/catalog.section/.default/style.css?14592316412445*/
+.catalog-price {
+	 color:red;
+}
+div.catalog-section table td, div.catalog-section table td:first-child {
+	padding:0px;
+	padding:0px;
+	border-left:none;
+    background:none;
+}
+.content .catalog-section .g TD {
+    background:none;
+}
+div.catalog-section table table {
+    margin-right:20px;
+} 
+.cook-section-list .cook_elem .img_contaner {
+    margin: 0 10px 10px 0;
+    overflow: hidden !important;
+    width: 355px !important;
+}
+.cook-section-list .cook_elem .img_contaner {
+    margin: 0 10px 10px 0;
+    overflow: hidden;
+    width: 100px;
+    }
+
+.cook-section-list a h2, .cook-section-list .headline_link {
+    color:#000000;
+    text-decoration:none;
+}
+
+.cook-section-list a:hover {
+    text-decoration: underline;
+    color:#000000;
+}
+
+.cook-section-list .out, .cook-section-list a.out:hover {
+    color:#FF0000;
+}
+
+.cook-section-list .cookies ol {
+    padding-left:0;
+}
+
+.cook-section-list .cook_elem .img_contaner {
+    margin: 0 10px 10px 0;
+    overflow: hidden !important;
+    width: 365px !important;
+}
+
+.cook-section-list .cat {
+    width: 799px;
+    margin:0 0 10px 0;
+    overflow:visible;
+}
+
+.catalog-section-list .slide {
+    float:left;
+    display:block;
+}
+.catalog-section-list .move_elem .new {
+    display:inline-block;
+    position:absolute;
+    left:25px;
+    top:50px;
+}
+.catalog-section-list .new {
+    display: inline-block;
+    float: right;
+    left: -25px;
+    position: relative;
+    top: -70px;
+}
+.cook-section-list .pages_section {
+    height: auto;
+    width:100%;
+    font-size:15pt;
+    font-weight:bold;
+}
+.cook-section-list .recipe-list {
+    display:block;
+    margin:0 0 70px 0;
+}
+.cook-section-list .see_more {
+    display: block;
+    margin: 0 0 50px;
+    position: relative;
+    top: -20px;
+    width: 100%;
+}
+
+.cook_elem .clock 
+{
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url("clock.png");
+    background-origin: padding-box;
+    background-position: 140px 1px;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    display: block;
+    margin-bottom: 3px;
+    padding-left: 160px;
+    text-decoration:none !important;
+    color:#000000;
+}
+
+.inner .footer {
+    margin-bottom: 0 !important;
+    padding-left: 440px;
+    padding-top: 0 !important;
+    width: 400px;
+}
+.cook-section-list .cook_elem .img_contaner {
+    margin: 0 10px 10px 0;
+    overflow: hidden;
+    width: 100px;
+}
+
+/* End */
+
+
+/* Start:/bitrix/templates/.default/components/bitrix/catalog/recipes/bitrix/catalog.section.list/.default/style.css?14592316411830*/
+.cook-section-list a h2, .cook-section-list .headline_link {
+    color:#000000;
+    text-decoration:none;
+}
+
+.cook-section-list a:hover {
+    text-decoration: underline;
+    color:#000000;
+}
+
+.cook-section-list .out, .cook-section-list a.out:hover {
+    color:#FF0000;
+}
+
+.cook-section-list .cookies ol {
+    padding-left:0;
+}
+.cook-section-list .cook_elem,
+.cook-section-list .recipe-list .cookies
+{
+    display: inline-block;
+    height: 70px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    width: 45%;
+}
+
+.cook-section-list .cook_elem img,
+.cook-section-list .recipe-list .cookies img
+{
+    float:left;
+    margin-right:10px;
+    max-width:100px;
+    max-height:70px;
+}
+
+.cook-section-list .cook_elem .img_contaner {
+    width:100px;
+    overflow:hidden;
+    margin:0 10px 10px 0;
+}
+.cook-section-list .cat {
+    width: 725px;
+    margin:0 0 10px 0;
+    overflow:visible;
+}
+
+.catalog-section-list .slide {
+    float:left;
+    display:block;
+}
+.catalog-section-list .move_elem .new {
+    display:inline-block;
+    position:absolute;
+    left:25px;
+    top:50px;
+}
+.catalog-section-list .new {
+    display: inline-block;
+    float: right;
+    left: -25px;
+    position: relative;
+    top: -70px;
+}
+
+.cook-section-list .pages_section {
+    height: auto;
+    width:100%;
+    font-size:15pt;
+    font-weight:bold;
+}
+.cook-section-list .recipe-list {
+    display:block;
+    margin:0 0 70px 0;
+}
+.cook-section-list .see_more {
+    display: block;
+    margin: 0 0 50px;
+    position: relative;
+    top: -20px;
+    width: 100%;
+}
+
+A:link {
+    color: #B4271D;
+}
+.cat DIV P {
+    margin-top: 1em;
+    overflow: hidden;
+}
+.cat DIV P {
+    margin-top: 1em;
+    overflow: hidden;
+/*width: 200px !important;*/
+}
+.inner .footer {
+    margin-bottom: 0 !important;
+    padding-left: 440px;
+    padding-top: 0 !important;
+    width: 400px;
+}
+/* End */
+/* /bitrix/templates/.default/components/bitrix/breadcrumb/template1/style.css?14592316411376 */
+/* /bitrix/templates/.default/components/prural/rating.vote/uvelka_like/style.css?14373791231093 */
+/* /bitrix/templates/.default/components/bitrix/catalog/recipes/bitrix/catalog.section/.default/style.css?14592316412445 */
+/* /bitrix/templates/.default/components/bitrix/catalog/recipes/bitrix/catalog.section.list/.default/style.css?14592316411830 */
